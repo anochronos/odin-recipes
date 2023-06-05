@@ -1,6 +1,6 @@
 # odin-recipes
-Project:Recipes | The Odin Project
 An extremely basic website using fundamental HTML skills such as:
+ - bold and italic text
  - adding links to other sites
  - adding images
- - lists
+ - lists (ordered and unordered)

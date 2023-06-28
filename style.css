@@ -6,6 +6,47 @@ body {
     color: orange;
 }
 
+.recipes {
+    display: block;
+    background: url(paper_background.jpeg);
+    border-color: darkgoldenrod;
+    border-radius: 25px;
+    border-style: solid;
+    margin: 200px;
+    padding: 20px;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+    list-style: none;
+    padding-left: 0;
+
+}
+
+ul li{
+    display: block;
+    padding-left: 1em;
+    background-color: rgba(0,0,0,0.5);
+    margin:3px 335px;
+    padding: 5px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 25px;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+ul li::before{
+    content: "\2022";
+    color:black;
+    display: inline-block;
+    padding-right: 0.5em;
+    vertical-align: middle;
+}
+
 .one,
 li {
     color: red;
